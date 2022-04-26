@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-height: 100vh;
+  color: white;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.header {
+  height: 50px;
+  border: white solid 2px;
+  background-color: rgb(12, 5, 56);
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.users {
+  width: 200px;
+  background-color: rgb(12, 5, 56);
+  border-radius: 12px;
+  border: white solid 2px;
+  overflow: auto;
+  border-radius: 12px;
+  padding: 12px;
+}
+.user-list__item {
+  display: flex;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin: 10px 0;
+}
+.user-list__item--img {
+  height: 40px;
+  width: 40px;
+}
+.user-list__item--name {
+  margin-left: 10px;
+}
+.chatroom {
+  flex: 1;
+  background-color: rgb(12, 5, 56);
+  border-radius: 12px;
+  border: white solid 2px;
+  overflow: auto;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 5px;
+}
+.chat-msg {
+  display: inline-block;
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 16px;
+  margin: 5px;
+}
+.chat-msg-me {
+  margin: 5px;
+  border: 2px solid white;
+
+  width: 50%;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 16px;
+  float: right;
+}
+
+.footer {
+  height: 100px;
+  background-color: rgb(12, 5, 56);
+  border: white solid 2px;
+  border-radius: 12px;
+  padding: 20px;
+}
